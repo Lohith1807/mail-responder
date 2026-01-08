@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gender Selection</title>
+    <link rel="stylesheet" href="pran.css">
+</head>
+<body>
+
+<h1>My Name is TEST USER – Choose My Gender</h1>
+
+<div class="gender-selection">
+    <input type="radio" id="male" name="gender" value="Male">
+    <label for="male">Male</label><br>
+
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br>
+
+    <input type="radio" id="other" name="gender" value="Other">
+    <label for="other">Other</label><br><br>
+
+    <button onclick="submitGender()">Submit</button>
+</div>
+
+<div id="result"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script src="pran.js"></script>
+
+</body>
+</html>
